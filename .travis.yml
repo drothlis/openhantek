@@ -14,19 +14,19 @@ os:
 addons:
   apt:
     sources:
-    - ubuntu-toolchain-r-test
     - llvm-toolchain-trusty-3.6
+    - ubuntu-toolchain-r-test
     packages: &native_deps
+    - clang-3.6
     - cmake
-    - qttools5-dev
-    - qttools5-dev-tools
-    - libusb-1.0-0-dev
+    - doxygen
+    - g++-5
+    - gcc-5
     - libfftw3-dev
     - libqt5qml5
-    - doxygen
-    - gcc-5
-    - g++-5
-    - clang-3.6
+    - libusb-1.0-0-dev
+    - qttools5-dev
+    - qttools5-dev-tools
 
 # We construct a build matrix for two operating systems (linux, osx) and two compilers (gcc, clang)
 matrix:
