@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+# TODO:
+# override_dh_auto_install :
+# 	make install DESTDIR=debian/openhantek
+# 	make install-firmware DESTDIR=debian/openhantek-firmware-hantek

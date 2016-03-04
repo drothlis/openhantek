@@ -1,0 +1,14 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: openhantek
+Upstream-Contact: David Gräff <david.graeff@web.de>
+Source: https://github.com/OpenHantek/openhantek
+
+Files: *
+Copyright: 2010-2016, Oliver Haag, David Gräff, and other contributors.
+License: GPL-3
+  On Debian systems, the complete text of the GPL-3 can be found in
+  /usr/share/common-licenses/GPL-3
+
+Files: firmware/*.hex
+Copyright: Hantek
+License: Unknown
